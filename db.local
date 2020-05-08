@@ -1,3 +1,6 @@
+;
+; BIND data file for local loopback interface
+;
 $TTL	604800
 @	IN	SOA	debserver.example.com. root.debserver.example.com. (
 			      3		; Serial
@@ -12,6 +15,5 @@ $TTL	604800
 ; name servers - A records
 debserver.example.com.	IN	A	172.21.0.43
 
-// this next record is optional
 ; 172.21.0.0/16 - A records
 host1.example.com.		IN	A	172.21.0.199
