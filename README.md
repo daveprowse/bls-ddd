@@ -5,6 +5,6 @@ Create a directory on your Debian system as root:
 
 mkdir ~/configs
 
-Download this repository there. Copy the files to their respective locations as we proceed. 
+Download this repository there. Copy the individual files to their respective locations as we proceed. 
 
 Enjoy!
