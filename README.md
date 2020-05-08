@@ -3,6 +3,8 @@ Config files for Building Linux Servers (DHCP, DNS, DS) Webinar.
 
 Create a directory on your Debian system as root:
 
-~/configs
+mkdir ~/configs
 
-Download this repository there
+Download this repository there. Copy the files to their respective locations as we proceed. 
+
+Enjoy!
