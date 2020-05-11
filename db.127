@@ -15,4 +15,4 @@ $TTL	604800
 
 
 ; PTR Records
-43.0.21.172.in-addr.arpa 	IN	PTR	debserver.example.com.
+43.0.21.172.in-addr.arpa. 	IN	PTR	debserver.example.com.
