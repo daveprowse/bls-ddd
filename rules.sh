@@ -4,7 +4,7 @@
 # Create a directory named scripts in /~  and save the script there.
 # You will have to modify permissions with chmod (as shown below) and run as root.
 # chmod +x rules.sh
-# If you are not installing the DNS portion of FreeIPA then port 53 can be removed from TCP and UDP. 
+# If you are not installing the DNS portion of FreeIPA then port 53 can be removed from the 't' and 'u' lists. 
 
 # start script
   for t in 80 443 389 636 88 464 53 
