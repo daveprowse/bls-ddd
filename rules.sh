@@ -1,6 +1,7 @@
 #!/bin/bash 
 # Firewall Rules script for FreeIPA server.
 # This script opens the following TCP and UDP ports on a Fedora Server system.
+# Create a directory named scripts in /~  and save the script there.
 # You will have to modify permissions with chmod (as shown below) and run as root.
 # chmod +x rules.sh
 # If you are not installing the DNS portion of FreeIPA then port 53 can be removed from TCP and UDP. 
