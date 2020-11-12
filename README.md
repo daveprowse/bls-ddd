@@ -1,5 +1,6 @@
 # bls-ddd
-Config files for Building Linux Servers (DHCP, DNS, DS) Webinar and Course.
+Config files for Building Linux Servers (DHCP, DNS, DS) Webinars and Course.
+Note: These configuration files are deisgned for learning and testing purposes, and not for work or production environments.
 
 Make sure you are logged in as root to a Debian system.
 
@@ -24,4 +25,3 @@ Enjoy!
 Notes: 
 1. For this test environment I am using Debian 10 (Buster) as a server for DHCP and DNS (with no GUI).
 2. The configuration files are based on one of my test labs that runs on the 172.21.0.0/16 network.
-3. For FreeIPA I am using Fedora Server but you can use CentOS 8 as well. There are no config files for FreeIPA.
