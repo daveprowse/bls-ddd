@@ -1,5 +1,5 @@
 # bls-ddd
-Config files for Building Linux Servers (DHCP, DNS, DS) Webinar.
+Config files for Building Linux Servers (DHCP, DNS, DS) Webinar and Course.
 
 Make sure you are logged in as root to a Debian system.
 
