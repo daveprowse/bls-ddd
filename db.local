@@ -1,15 +1,14 @@
 $ORIGIN example.com.
-$TTL	604800
+$TTL	5m
 example.com.	IN	SOA	debserver.example.com. hostmaster.example.com. (
-			      3		; Serial
-			 604800		; Refresh
-			  86400		; Retry
-			2419200		; Expire
-			 604800 	; Negative Cache TTL
-			 )
-
+			3		; Serial
+			4h		; Refresh
+			15m		; Retry
+			8h		; Expire
+			4m) 	; Negative Cache TTL
+			 
 ; name servers - NS records
-example.com.			IN	NS	debserver.example.com.
+		IN	NS	debserver.example.com.
 
 ; name servers - A records
 debserver.example.com.		IN	A	172.21.0.51
