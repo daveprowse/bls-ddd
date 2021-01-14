@@ -1,6 +1,6 @@
 # bls-ddd
 Config files for Building Linux Servers (DHCP, DNS, DS) Webinars and Course.
-Note: These configuration files are deisgned for learning and testing purposes, and not for work or production environments.
+Note: These configuration files are designed for learning and testing purposes, and not for use in a production environment.
 
 Make sure you are logged in as root to a Debian system.
 
