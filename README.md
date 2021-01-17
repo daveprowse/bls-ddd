@@ -24,4 +24,4 @@ Enjoy!
 
 Notes: 
 1. For this test environment I am using Debian 10 (Buster) as a server for DHCP and DNS (with no GUI).
-2. The configuration files are based on one of my test labs that runs on the 172.21.0.0/16 network.
+2. The configuration files are based on one of my test labs that runs on the 172.21.0.0/16 network. Your IP addresses and computer names will vary.
