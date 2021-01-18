@@ -1,6 +1,5 @@
-$ORIGIN example.com.
 $TTL	1w
-example.com.	IN	SOA	debserver.example.com. hostmaster.example.com. (
+@	IN	SOA	debserver.example.com. hostmaster.example.com. (
 			3		; Serial
 			1w 		; Refresh
 			1d		; Retry
@@ -11,4 +10,4 @@ example.com.	IN	SOA	debserver.example.com. hostmaster.example.com. (
 		IN	NS	debserver.example.com.
 
 ; PTR Records
-51.0.21.172.in-addr.arpa. 	IN	PTR	debserver.example.com.
+51.0.in-addr.arpa. 	IN	PTR	debserver.example.com.
