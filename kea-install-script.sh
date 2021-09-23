@@ -1,5 +1,5 @@
 #!/bin/bash
-# this script is designed to install the ISC Kea DHCP4 server to a Debian Linux system.
+# this script is designed to install the ISC Kea DHCP4 server to a Debian Linux system. It should also work on a Ubuntu system.
 # run this as root (for testing purposes). 
 # Otherwise, your account will need to be a sudoer and you will need to add `sudo` before `bash` on line 12, and at the beggining of lines 10, 11, and 13. 
 # make sure you chmod +x this script before running.
