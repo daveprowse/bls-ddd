@@ -9,7 +9,7 @@ start=$SECONDS
 printf "\n\033[7;31mExecuting the script.........\033[0m\n\n"
 apt update && apt upgrade -y
 apt install curl vim -y
-curl -1sLf 'https://dl.cloudsmith.io/public/isc/kea-1-8/cfg/setup/bash.deb.sh'| bash
+curl -1sLf 'https://dl.cloudsmith.io/public/isc/kea-2-0/cfg/setup/bash.deb.sh'| bash
 apt install -y isc-kea-common isc-kea-dhcp4-server
 printf "\n\033[7;32mCOMPLETE! \033[0m"
 printf "\nTime to complete = %s seconds.\n\n" "$SECONDS"
