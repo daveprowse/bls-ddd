@@ -1,6 +1,7 @@
 # bls-ddd
 Config files for Building Linux Servers (DHCP, DNS, DS) Webinars and Course.
 Note: These configuration files are designed for learning and testing purposes, and not for use in a production environment.
+!!! Important: 3. If you are using Debian 11 (Bullseye), you will want to use the ISC Kea 2.0 repo. (as of June, 2022)!!!
 
 Make sure you are logged in as root to a Debian system.
 
